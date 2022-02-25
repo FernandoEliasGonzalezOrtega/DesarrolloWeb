@@ -1,1 +1,28 @@
+table{
+    border-collapse: collapse;
+    border: blueviolet 5px solid;
+    font-family: 'Calibri';
+    text-align: center;
+    background-color: blanchedalmond;
+}
 
+tbody {
+    border: salmon 5px solid;
+}
+
+td {
+    border: rgb(250, 114, 155) 5px solid;
+}
+
+tr {
+    border: rgb(128, 13, 0) 5px solid;
+}
+
+th {
+    border: rgb(128, 13, 0) 5px solid;
+}
+
+caption{
+    border: gray 3px solid;
+    background-color: blanchedalmond;
+}
