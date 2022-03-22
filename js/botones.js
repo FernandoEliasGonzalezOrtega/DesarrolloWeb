@@ -1,7 +1,9 @@
 function mostrarImagen1(){
     try {
         var img = document.getElementById("B1");
+        var img2 = document.getElementById("B2");
         img.style.visibility = "visible";
+        img2.style.visibility = "hidden";
 
     } catch (error) {
         alert(error);
@@ -13,7 +15,7 @@ function mostrarImagen2(){
         var img = document.getElementById("B1");
         var img2 = document.getElementById("B2");
         img.style.visibility = "hidden";
-        img2.style.visibility = "visible"
+        img2.style.visibility = "visible";
 
     } catch (error) {
         alert(error);
