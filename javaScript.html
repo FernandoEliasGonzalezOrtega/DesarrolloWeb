@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
-        
+        <script type="application/javascript" src="js/botones.js"></script>
     </head>
     <body>
         <div class="container">
@@ -30,14 +30,14 @@
                         <div class="col-md-1">
                         </div>
                         <div class="col-md-2">
-                            <button type="" class="btn btn-success">Press Here</button>
+                            <button onclick="mostrarImagen1();" class="btn btn-success">Press Here</button>
                         </div>
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-2">
                         </div>
                         <div class="col-md-2">
-                            <button type="" class="btn btn-danger">Don't Press Here</button>
+                            <button onclick="mostrarImagen2();" class="btn btn-danger">Don't Press Here</button>
                         </div>
                         <div class="col-md-1">
                         </div>
@@ -47,8 +47,20 @@
             <div class="col-md-3">
 
             </div>
-
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+            <div class="polaroid">
+                <div class="col-md-6">
+                    <img class="img1" src="img/B1.png" alt="imagen 1" id="B1">
+                </div>
+                <div class="col-md-6">
+                    <img class="img2" src="img/B2.jpg" alt="imagen 2" id="B2">
+                </div>
+            </div>
         </div>
-
+    
     </body>
 </html>
