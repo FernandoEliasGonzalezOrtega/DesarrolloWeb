@@ -1,16 +1,4 @@
-try {
-  const cent = 1;
-}
-catch (err) {
-  document.getElementById("demo").innerHTML = err;
-}
-
-
-
-
 function block() {
-  var z = document.createElement("img");
-
   var x = document.getElementById("B1");
   var y = document.getElementById("B2");
  
