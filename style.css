@@ -1,0 +1,13 @@
+.container {
+    
+    border: solid rgb(151, 27, 27);
+}
+
+.error-input {
+    border: solid red;
+   
+}
+
+.correct-input {
+    border: 5px solid green                            ;
+}
