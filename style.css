@@ -1,5 +1,6 @@
-.container {
-    
+.container{
+    padding: 3%;
+    background-color: antiquewhite;
     border: solid rgb(151, 27, 27);
 }
 
@@ -10,4 +11,16 @@
 
 .correct-input {
     border: 5px solid green                            ;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    padding: 10%;
+    background-image: url("img/descarga.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
 }

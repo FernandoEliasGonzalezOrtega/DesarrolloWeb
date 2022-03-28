@@ -2,22 +2,22 @@
 <html>
 <head>
    
-    <title>Page Title</title>
+    <title>Validación</title>
+    <meta charset="UTF-8">
     
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist\css\bootstrap.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-
-    <div class="container">
+    
+    <div class="form-group container">
+        <h1>Validación de Contraseña</h1>
         <form id="frm1" action="/action_page.php">
-            First name: <input type="text" name="fname"  id="user" value="mac" onchange="correct ()"><br>
-            Last name: <input type="text" name="lname" value="2022" id="pass"><br><br>
-            <input type="button" value="Submit" onclick="setLogin(),getValues()" >
-          </form>
-        
+            Usuario: <input type="text" name="fname"  id="user"  onchange="correct()" class="form-control"><br>
+            Contraseña: <input type="text" name="lname"  id="pass" onchange="correct()" class="form-control"><br><br>
+            <input type="button" value="Submit" onclick="setLogin(),getValues()" class="btn btn-danger">
+        </form>
     </div>
    
     

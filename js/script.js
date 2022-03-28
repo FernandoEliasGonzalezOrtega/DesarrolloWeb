@@ -1,11 +1,9 @@
 /*
-Descripción: Evalúa el login checa si contenido
-Parámetros:none
-
-
+    Descripción: Comparación de espacio sin texto ingresado
+    Parámetros: none
 */ 
 
-  function setLogin (){
+  function setLogin(){
       try {
           var user = document.getElementById("user").value;
           var pass = document.getElementById("pass").value;
@@ -16,17 +14,26 @@ Parámetros:none
               inputUser.classList.remove("correct-input");
               inputUser.classList.add("error-input");
           }
+          if(pass == ""){
+            var inputUser = document.getElementById("pass");
+            inputUser.classList.remove("correct-input");
+            inputUser.classList.add("error-input");
+        }
       } catch (error) {
           console.log(error);
       }
   }
 
-  function correct (){
+  function correct(){
       try {
         var user = document.getElementById("user").value;
         var pass = document.getElementById("pass").value;
         if(user != ""){
             var inputUser = document.getElementById("user");
+            inputUser.classList.add("correct-input");
+        }
+        if(pass != ""){
+            var inputUser = document.getElementById("pass");
             inputUser.classList.add("correct-input");
         }
           
